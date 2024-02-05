@@ -70,7 +70,7 @@ namespace dymotest
             #endregion
 
             #region Check if there is New records to print
-            string SQLconn1 = "Server=217.198.132.7;Database=VMSystem;TrustServerCertificate=True;User Id=sa;Password=Datovarme13@;Encrypt=False;";
+            string SQLconn1 = "Server=217.198.132.7;Database=VMSystem;TrustServerCertificate=True;User Id=VMS;Password=Testpassword123@;Encrypt=False;";
             SqlConnection conn = new SqlConnection(SQLconn1);
             try
             {
